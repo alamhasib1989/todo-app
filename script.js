@@ -1,1 +1,7 @@
-console.log("Todo app loaded");
+const todos = [];
+
+function addTodo(text) { 
+todos.push(text); 
+console.log("Added", text); 
+
+} 
